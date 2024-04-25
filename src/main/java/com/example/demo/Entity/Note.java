@@ -3,17 +3,10 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-//@Entity
-
-//@Table(name = "Note")
 public class Note {
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long id;
-    //    @Column(title = "title",nullable = false, length = 200)
     private String title;
-    //    @Column(content = "content",nullable = false, length = 200)
     private String content;
 
     public Long getId() {
